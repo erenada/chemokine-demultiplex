@@ -38,6 +38,12 @@ venv/
 .AppleDouble
 .LSOverride
 
+# R
+.Rproj.user
+.Rhistory
+.RData
+*.Rproj
+
 # Temporary / cleanup folder
 delete_later/
 

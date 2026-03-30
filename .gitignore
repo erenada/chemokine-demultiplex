@@ -1,0 +1,50 @@
+# Data files
+*.fastq
+*.fastq.fxi
+*.fq
+*.fq.gz
+*.fastq.gz
+*.bam
+*.sam
+*.vcf
+*.zip
+*.csv
+*.xlsx
+
+# Reference and experiment-specific files
+reference_files/
+
+# Pipeline outputs
+demultiplexed_samples/
+qc_reports/
+results/
+logs/
+orientation_corrected/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary / cleanup folder
+delete_later/
+
+# Conda
+*.conda
+
+# PDF and HTML reports (generated artifacts)
+*.pdf
+*.html
+*_report_files/
